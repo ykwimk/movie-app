@@ -1,9 +1,9 @@
 import React from 'react';
 import axios from 'axios';
-import Movie from './Movie';
-import './Movie.css';
+import Movie from '../components/Movie';
+import '../components/Movie.css';
 
-class MovieList extends React.Component {
+class Home extends React.Component {
   constructor(props) {
     super(props)
 
@@ -55,4 +55,4 @@ class MovieList extends React.Component {
   }
 }
 
-export default MovieList;
+export default Home;
